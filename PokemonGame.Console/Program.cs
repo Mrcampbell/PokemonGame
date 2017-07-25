@@ -30,10 +30,6 @@ namespace PokemonGame.ConsoleApp
             paras.Moves.AddMove(new Ember());
             paras.Moves.AddMove(new HydroPump());
 
-            Console.WriteLine(paras.Moves.Get(1));
-            Console.WriteLine(paras.Moves.Get(2));
-            Console.WriteLine(paras.Moves.Count);
-
             Battle b = new Battle(archie, paras, Battle.Type.WILD);
 
             Console.WriteLine("Program Ended.  Press any key to continue...");
